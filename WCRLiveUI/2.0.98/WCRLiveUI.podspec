@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { "weclassroom" => "weclassroom@icloud.com" } 
   s.platform = :ios, "8.0" 
   s.source = {:http => "http://cloudclass-static.oss-cn-beijing.aliyuncs.com/static/zby-sdk/zby-ios-sdk/WCRLiveUI/2.0.98/frameworks.zip" } 
-  s.vendored_frameworks = ["*.framework"] 
+  s.vendored_frameworks = ["frameworks/*.framework"] 
   s.dependency 'ReactiveObjC', '~> 3.1.1' 
   s.dependency 'Masonry', '~> 1.1.0' 
   s.dependency 'MBProgressHUD', '~> 1.1.0' 
