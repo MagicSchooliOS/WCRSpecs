@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" } 
   s.author = { "weclassroom" => "weclassroom@icloud.com" } 
   s.platform = :ios, "9.0" 
-  s.source = {:http => "https://cloudclass-static.oss-cn-beijing.aliyuncs.com/static/zby-sdk/zby-ios-sdk/WCRLiveUI/2.1.34 /frameworks.zip" } 
+  s.source = {:http => "https://cloudclass-static.oss-cn-beijing.aliyuncs.com/static/zby-sdk/zby-ios-sdk/WCRLiveUI/2.1.34/frameworks.zip" } 
   s.vendored_frameworks = ["frameworks/*.framework"]
   s.dependency  'AliPlayerSDK_iOS', "~>5.2.2"
 end
